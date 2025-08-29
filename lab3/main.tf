@@ -3,7 +3,7 @@ data "terraform_remote_state" "lab1" {
   config = {
     organization = "aviatrix-madhan-IAC"
     workspaces = {
-      name = "ace-automation-lab1"
+      name = "ace-automation"
     }
   }
 }
